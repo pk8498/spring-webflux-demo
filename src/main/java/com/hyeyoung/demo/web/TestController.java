@@ -1,13 +1,13 @@
-package hyeyoung.demo.web;
+package com.hyeyoung.demo.web;
 
-import hyeyoung.demo.service.FluxTestService;
+import com.hyeyoung.demo.service.FluxTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import hyeyoung.demo.service.MonoTestService;
+import com.hyeyoung.demo.service.MonoTestService;
 
 @RestController
 @RequestMapping("/test")

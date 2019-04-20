@@ -1,4 +1,4 @@
-package hyeyoung.demo.entity;
+package com.hyeyoung.demo.entity;
 
 import lombok.Data;
 

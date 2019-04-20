@@ -1,4 +1,4 @@
-package hyeyoung.demo;
+package com.hyeyoung.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

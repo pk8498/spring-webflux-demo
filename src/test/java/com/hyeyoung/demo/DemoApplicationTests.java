@@ -1,4 +1,4 @@
-package hyeyoung.demo;
+package com.hyeyoung.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
