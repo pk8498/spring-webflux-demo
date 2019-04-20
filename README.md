@@ -4,5 +4,4 @@
 - 2.1.3.RELEASE
 
 
-##### configuration
-- spock + hibernate + spring boot
+spock + hibernate + spring boot
