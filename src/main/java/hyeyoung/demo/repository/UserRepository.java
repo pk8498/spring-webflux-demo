@@ -1,8 +1,8 @@
-package tv.anypoint.demo.repository;
+package hyeyoung.demo.repository;
 
+import hyeyoung.demo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import tv.anypoint.demo.entity.User;
 
 import java.util.List;
 

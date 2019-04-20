@@ -1,13 +1,13 @@
-package tv.anypoint.demo.web;
+package hyeyoung.demo.web;
 
+import hyeyoung.demo.service.FluxTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import tv.anypoint.demo.service.FluxTestService;
-import tv.anypoint.demo.service.MonoTestService;
+import hyeyoung.demo.service.MonoTestService;
 
 @RestController
 @RequestMapping("/test")

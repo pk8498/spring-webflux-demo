@@ -1,4 +1,4 @@
-package tv.anypoint.demo.entity;
+package hyeyoung.demo.entity;
 
 import lombok.Data;
 

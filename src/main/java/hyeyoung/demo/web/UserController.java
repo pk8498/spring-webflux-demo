@@ -1,5 +1,6 @@
-package tv.anypoint.demo.web;
+package hyeyoung.demo.web;
 
+import hyeyoung.demo.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,8 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
-import tv.anypoint.demo.entity.User;
-import tv.anypoint.demo.repository.UserRepository;
+import hyeyoung.demo.repository.UserRepository;
 
 /**
  * Spring Web MVC 와 같은 방식인 어노테이션 기반 설정 지원

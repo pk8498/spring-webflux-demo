@@ -1,10 +1,10 @@
-package tv.anypoint.demo
+package hyeyoung.demo
 
 import lombok.extern.slf4j.Slf4j
 import reactor.core.publisher.Flux
 import reactor.test.StepVerifier
 import spock.lang.Specification
-import tv.anypoint.demo.service.FluxTestService
+import hyeyoung.demo.service.FluxTestService
 
 @Slf4j
 class StepVerifierTest extends Specification {
