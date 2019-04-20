@@ -1,0 +1,14 @@
+spring:
+  profiles.active: local
+
+  datasource:
+    url: jdbc:mysql://localhost/webflux?characterEncoding=utf8&useUnicode=true&autoReconnect=true
+    username: user
+    password: 'password'
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
